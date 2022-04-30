@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&family=Nunito&display=swap');
+            /* 글꼴 설정: 영문 - Nunito, 한글 - 나눔고딕 */
+    *{
+        font-family:Nunito, Nanum Gothic Coding;
+    }
+    header{
+        width: 100%;
+        top: 0;
+        z-index: 1;
+    }
+    html{
+        min-width: 800px;
+    }
+    a{
+        margin-left: 10px;
+        font-size: 40px;
+    }
+    .bar{
+        background-color: #32355d;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        min-width: 1100px;
+        height: 125px;
+    }
+    .homepage{font-size: 25px;font-weight: bold;}
