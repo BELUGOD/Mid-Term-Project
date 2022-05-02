@@ -37,6 +37,18 @@
         height: 60px;
         background: #36304a;
     }
+    footer {
+        position: flex;
+        min-width: 1000px;
+        bottom: 0;
+        background: #1f1f1faf;
+        padding: 50px;
+        margin: 0;
+        font-size: 18px;
+        justify-content: space-around;
+        text-align: center;
+    }
+
     .intro{
         font-size: 40px;
     }
@@ -50,5 +62,6 @@
     }
     .homepage{font-size: 25px;font-weight: bold;padding-left: 20px; }
     .small_title{margin-left: 50px;}
-    .Context_box{margin-left: 15%; margin-right:15%; border: 2px solid black; padding: 10px;font-size: 25px;}
+    .Context_box{margin-left: 15%; margin-right:15%; border: 2px solid black; padding: 10px;font-size: 25px;background-color:rgb(253, 255, 157);border-radius: 10px;}
+    .sel-ca{float: right;}
     /*.Self_Intro{background-color: rgb(235, 203, 117);}*/
